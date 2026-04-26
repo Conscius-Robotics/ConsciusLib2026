@@ -25,10 +25,8 @@ publishing {
 
 repositories {
   mavenCentral()
-  // Vendor repositories used by the robot project
-  maven {
-    url 'https://maven.ctr-electronics.com/release/'
-  }
+    maven { url 'https://jitpack.io' }
+    
   maven {
     url 'https://maven.revrobotics.com/'
   }
